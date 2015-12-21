@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="com.example.kohkoh135.emotionproj.MainActivity"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourgraph"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@color/hourgraph">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hourGraph"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weekgraph"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@color/hourgraph">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Week Graph"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/monthgraph"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@color/hourgraph">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Month Graph"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/yeargraph"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="@color/hourgraph">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year Graph"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
